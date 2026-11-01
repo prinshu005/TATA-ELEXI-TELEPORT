@@ -1,0 +1,9 @@
+# Netlify Configuration File
+[build]
+  publish = "public"
+  command = "echo 'Static portal build complete'"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
