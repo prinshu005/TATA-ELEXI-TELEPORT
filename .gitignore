@@ -1,0 +1,33 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# MLflow tracking local files
+mlruns/
+.trash/
+mlflow.db
+mlflow.lock
+mlflow*.err
+mlflow*.out
+
+# SQLite databases (generated at runtime)
+database/*.db
+*.sqlite3
+
+# Temporary / OS files
+.DS_Store
+Thumbs.db
+*.log
+.pytest_cache/
+.tools/
+
+# Processed artifacts (large or transient)
+data/processed/*.parquet
+data/processed/*.csv

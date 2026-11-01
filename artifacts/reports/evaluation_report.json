@@ -1,0 +1,220 @@
+{
+  "dataset_subset": "FD001",
+  "rul_cap_applied": 125,
+  "validation_metrics": {
+    "mae": 10.659647188824527,
+    "rmse": 15.002303121787147,
+    "r2": 0.870664522180653,
+    "nasa_score": 21183.282763199753,
+    "total_evaluated_engines": 4070,
+    "over_prediction_count": 1562,
+    "under_prediction_count": 2507,
+    "exact_prediction_count": 1,
+    "residual_stats": {
+      "mean": -0.5519257122331234,
+      "std": 14.992147176644188,
+      "min": -56.1376558248587,
+      "max": 65.19195487023478,
+      "median": -2.0125408102904316
+    },
+    "stratified_metrics": {
+      "critical_tier_rul_le_30": {
+        "count": 620,
+        "mae": 4.992803418816106,
+        "rmse": 7.060779263408055
+      },
+      "mid_tier_rul_31_to_80": {
+        "count": 1000,
+        "mae": 15.049815659230061,
+        "rmse": 20.55840775576445
+      },
+      "high_tier_rul_gt_80": {
+        "count": 2450,
+        "mae": 10.301800114130522,
+        "rmse": 13.739162689436132
+      }
+    },
+    "worst_5_engines": [
+      {
+        "engine_id": 1,
+        "actual_rul": 54.0,
+        "predicted_rul": 119.19195487023478,
+        "error": 65.19195487023478,
+        "abs_error": 65.19195487023478
+      },
+      {
+        "engine_id": 1,
+        "actual_rul": 48.0,
+        "predicted_rul": 104.39256585808432,
+        "error": 56.392565858084325,
+        "abs_error": 56.392565858084325
+      },
+      {
+        "engine_id": 84,
+        "actual_rul": 108.0,
+        "predicted_rul": 51.8623441751413,
+        "error": -56.1376558248587,
+        "abs_error": 56.1376558248587
+      },
+      {
+        "engine_id": 1,
+        "actual_rul": 49.0,
+        "predicted_rul": 104.15944037703383,
+        "error": 55.15944037703383,
+        "abs_error": 55.15944037703383
+      },
+      {
+        "engine_id": 84,
+        "actual_rul": 125.0,
+        "predicted_rul": 71.00574526789912,
+        "error": -53.994254732100885,
+        "abs_error": 53.994254732100885
+      }
+    ],
+    "best_5_engines": [
+      {
+        "engine_id": 74,
+        "actual_rul": 7.0,
+        "predicted_rul": 6.9794099484729,
+        "error": -0.02059005152710025,
+        "abs_error": 0.02059005152710025
+      },
+      {
+        "engine_id": 54,
+        "actual_rul": 20.0,
+        "predicted_rul": 20.017072089435832,
+        "error": 0.017072089435831828,
+        "abs_error": 0.017072089435831828
+      },
+      {
+        "engine_id": 32,
+        "actual_rul": 42.0,
+        "predicted_rul": 41.98587308574262,
+        "error": -0.014126914257381884,
+        "abs_error": 0.014126914257381884
+      },
+      {
+        "engine_id": 81,
+        "actual_rul": 54.0,
+        "predicted_rul": 54.01151631452018,
+        "error": 0.011516314520179094,
+        "abs_error": 0.011516314520179094
+      },
+      {
+        "engine_id": 74,
+        "actual_rul": 0.0,
+        "predicted_rul": 0.0,
+        "error": 0.0,
+        "abs_error": 0.0
+      }
+    ]
+  },
+  "official_test_metrics": {
+    "mae": 13.620495420201998,
+    "rmse": 18.917894711971723,
+    "r2": 0.7927540444667925,
+    "nasa_score": 1099.8596300510226,
+    "total_evaluated_engines": 100,
+    "over_prediction_count": 61,
+    "under_prediction_count": 39,
+    "exact_prediction_count": 0,
+    "residual_stats": {
+      "mean": 3.2027047554558252,
+      "std": 18.644822943182604,
+      "min": -59.9168487984811,
+      "max": 55.5284835012056,
+      "median": 2.8997576297138092
+    },
+    "stratified_metrics": {
+      "critical_tier_rul_le_30": {
+        "count": 25,
+        "mae": 7.34118704026105,
+        "rmse": 12.479431353454004
+      },
+      "mid_tier_rul_31_to_80": {
+        "count": 20,
+        "mae": 18.2926799879263,
+        "rmse": 25.216047457762475
+      },
+      "high_tier_rul_gt_80": {
+        "count": 55,
+        "mae": 14.775750295548137,
+        "rmse": 18.673407379013568
+      }
+    },
+    "worst_5_engines": [
+      {
+        "engine_id": 45,
+        "actual_rul": 114.0,
+        "predicted_rul": 54.0831512015189,
+        "error": -59.9168487984811,
+        "abs_error": 59.9168487984811
+      },
+      {
+        "engine_id": 27,
+        "actual_rul": 66.0,
+        "predicted_rul": 121.5284835012056,
+        "error": 55.5284835012056,
+        "abs_error": 55.5284835012056
+      },
+      {
+        "engine_id": 79,
+        "actual_rul": 63.0,
+        "predicted_rul": 116.53221724429652,
+        "error": 53.53221724429652,
+        "abs_error": 53.53221724429652
+      },
+      {
+        "engine_id": 72,
+        "actual_rul": 50.0,
+        "predicted_rul": 98.62869766849425,
+        "error": 48.628697668494254,
+        "abs_error": 48.628697668494254
+      },
+      {
+        "engine_id": 74,
+        "actual_rul": 126.0,
+        "predicted_rul": 84.35975243952,
+        "error": -41.640247560480006,
+        "abs_error": 41.640247560480006
+      }
+    ],
+    "best_5_engines": [
+      {
+        "engine_id": 32,
+        "actual_rul": 48.0,
+        "predicted_rul": 48.77628279572657,
+        "error": 0.7762827957265728,
+        "abs_error": 0.7762827957265728
+      },
+      {
+        "engine_id": 63,
+        "actual_rul": 72.0,
+        "predicted_rul": 72.47693604434454,
+        "error": 0.47693604434454073,
+        "abs_error": 0.47693604434454073
+      },
+      {
+        "engine_id": 34,
+        "actual_rul": 7.0,
+        "predicted_rul": 6.716314253105707,
+        "error": -0.28368574689429327,
+        "abs_error": 0.28368574689429327
+      },
+      {
+        "engine_id": 81,
+        "actual_rul": 8.0,
+        "predicted_rul": 8.185857911188236,
+        "error": 0.18585791118823636,
+        "abs_error": 0.18585791118823636
+      },
+      {
+        "engine_id": 100,
+        "actual_rul": 20.0,
+        "predicted_rul": 20.10896916462166,
+        "error": 0.10896916462165862,
+        "abs_error": 0.10896916462165862
+      }
+    ]
+  }
+}

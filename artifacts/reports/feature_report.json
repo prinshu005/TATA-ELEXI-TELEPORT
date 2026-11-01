@@ -1,0 +1,227 @@
+{
+  "total_features": 137,
+  "feature_correlations": {
+    "setting_1": -0.008153484639765975,
+    "setting_2": -0.002260956193921455,
+    "sensor_2": -0.6752149494907465,
+    "sensor_3": -0.6521305310347693,
+    "sensor_4": -0.7523072521341798,
+    "sensor_6": -0.10369924070716256,
+    "sensor_7": 0.7274893685991017,
+    "sensor_8": -0.6187891946773681,
+    "sensor_9": -0.4601797604023075,
+    "sensor_11": -0.7711821887660651,
+    "sensor_12": 0.7423946338396878,
+    "sensor_13": -0.6173277606081637,
+    "sensor_14": -0.37195948142572116,
+    "sensor_15": -0.716661952144532,
+    "sensor_17": -0.6772769553632683,
+    "sensor_20": 0.7029868466376038,
+    "sensor_21": 0.7037131497634079,
+    "sensor_2_diff1": -0.016319731775235474,
+    "sensor_3_diff1": -0.01285509920321321,
+    "sensor_4_diff1": -0.024588605897184524,
+    "sensor_6_diff1": 0.0006184728216600021,
+    "sensor_7_diff1": 0.021084058826128408,
+    "sensor_8_diff1": -0.023980800015603897,
+    "sensor_9_diff1": -0.0407063068255679,
+    "sensor_11_diff1": -0.027373917073356912,
+    "sensor_12_diff1": 0.02688781885985283,
+    "sensor_13_diff1": -0.025679398022486335,
+    "sensor_14_diff1": -0.040858169777021225,
+    "sensor_15_diff1": -0.018910313262943554,
+    "sensor_17_diff1": -0.016053792070300225,
+    "sensor_20_diff1": 0.01843879065282769,
+    "sensor_21_diff1": 0.016931953755603923,
+    "sensor_2_roll_mean_5": -0.7917000851472834,
+    "sensor_2_roll_std_5": -0.015326891662668478,
+    "sensor_2_trend_5": -0.0500491023417341,
+    "sensor_3_roll_mean_5": -0.7923065955663886,
+    "sensor_3_roll_std_5": -0.015558439474047517,
+    "sensor_3_trend_5": -0.040589315759635605,
+    "sensor_4_roll_mean_5": -0.8116430821608754,
+    "sensor_4_roll_std_5": -0.0236838227682234,
+    "sensor_4_trend_5": -0.07308329029929803,
+    "sensor_6_roll_mean_5": -0.1998601075632364,
+    "sensor_6_roll_std_5": 0.21425278397752537,
+    "sensor_6_trend_5": 0.002261901398916063,
+    "sensor_7_roll_mean_5": 0.7876215887723091,
+    "sensor_7_roll_std_5": -0.022365386641784245,
+    "sensor_7_trend_5": 0.06552470339961759,
+    "sensor_8_roll_mean_5": -0.6566120112403264,
+    "sensor_8_roll_std_5": -0.04097924907884589,
+    "sensor_8_trend_5": -0.07212862146922197,
+    "sensor_9_roll_mean_5": -0.4654283963861326,
+    "sensor_9_roll_std_5": -0.11809633687288117,
+    "sensor_9_trend_5": -0.1255441492423942,
+    "sensor_11_roll_mean_5": -0.8102827694554565,
+    "sensor_11_roll_std_5": -0.04625144154866101,
+    "sensor_11_trend_5": -0.08603839311055603,
+    "sensor_12_roll_mean_5": 0.7865376282337131,
+    "sensor_12_roll_std_5": -0.046875840355465576,
+    "sensor_12_trend_5": 0.08005034479373549,
+    "sensor_13_roll_mean_5": -0.6542019210120659,
+    "sensor_13_roll_std_5": -0.054016856196204395,
+    "sensor_13_trend_5": -0.07344253014967947,
+    "sensor_14_roll_mean_5": -0.3737772607938995,
+    "sensor_14_roll_std_5": -0.1278781395755389,
+    "sensor_14_trend_5": -0.11929488848215027,
+    "sensor_15_roll_mean_5": -0.8056381454700563,
+    "sensor_15_roll_std_5": -0.021556424329094374,
+    "sensor_15_trend_5": -0.059416456298423126,
+    "sensor_17_roll_mean_5": -0.7993071150127176,
+    "sensor_17_roll_std_5": -0.052256173804691074,
+    "sensor_17_trend_5": -0.046956343227791894,
+    "sensor_20_roll_mean_5": 0.8006804395617986,
+    "sensor_20_roll_std_5": -0.01781057862293895,
+    "sensor_20_trend_5": 0.053188164055318454,
+    "sensor_21_roll_mean_5": 0.8020168233635495,
+    "sensor_21_roll_std_5": 0.011730888829508068,
+    "sensor_21_trend_5": 0.05317495386429658,
+    "sensor_2_roll_mean_10": -0.8011964397714714,
+    "sensor_2_roll_std_10": -0.049726204147022626,
+    "sensor_3_roll_mean_10": -0.8081001804819014,
+    "sensor_3_roll_std_10": -0.03928747510424008,
+    "sensor_4_roll_mean_10": -0.809676815325304,
+    "sensor_4_roll_std_10": -0.07446792101074957,
+    "sensor_6_roll_mean_10": -0.24021497930091304,
+    "sensor_6_roll_std_10": 0.2748293692556134,
+    "sensor_7_roll_mean_10": 0.7848829691618594,
+    "sensor_7_roll_std_10": -0.06361659860321184,
+    "sensor_8_roll_mean_10": -0.6474575818535762,
+    "sensor_8_roll_std_10": -0.08203836082288445,
+    "sensor_9_roll_mean_10": -0.4643462004677875,
+    "sensor_9_roll_std_10": -0.3096739369928182,
+    "sensor_11_roll_mean_10": -0.804740592967986,
+    "sensor_11_roll_std_10": -0.1181672095686059,
+    "sensor_12_roll_mean_10": 0.7814921693920992,
+    "sensor_12_roll_std_10": -0.1116555496736576,
+    "sensor_13_roll_mean_10": -0.6452539290937955,
+    "sensor_13_roll_std_10": -0.10220957615605364,
+    "sensor_14_roll_mean_10": -0.3713932503999032,
+    "sensor_14_roll_std_10": -0.3198926819567406,
+    "sensor_15_roll_mean_10": -0.809163933914083,
+    "sensor_15_roll_std_10": -0.054942478732754256,
+    "sensor_17_roll_mean_10": -0.8105609892609568,
+    "sensor_17_roll_std_10": -0.0953860079401532,
+    "sensor_20_roll_mean_10": 0.8063748333651036,
+    "sensor_20_roll_std_10": -0.053971339626764356,
+    "sensor_21_roll_mean_10": 0.8072229628645449,
+    "sensor_21_roll_std_10": -0.00307043109358087,
+    "sensor_2_roll_mean_20": -0.7868422408308404,
+    "sensor_2_roll_std_20": -0.1552508410495813,
+    "sensor_3_roll_mean_20": -0.8004621355860506,
+    "sensor_3_roll_std_20": -0.10560485211187405,
+    "sensor_4_roll_mean_20": -0.790550394096461,
+    "sensor_4_roll_std_20": -0.2192620805091704,
+    "sensor_6_roll_mean_20": -0.2737273766991244,
+    "sensor_6_roll_std_20": 0.33185634877330755,
+    "sensor_7_roll_mean_20": 0.763654768169424,
+    "sensor_7_roll_std_20": -0.19451412280413258,
+    "sensor_8_roll_mean_20": -0.6193699877790608,
+    "sensor_8_roll_std_20": -0.20712795944734141,
+    "sensor_9_roll_mean_20": -0.4601039479544652,
+    "sensor_9_roll_std_20": -0.4518795091377281,
+    "sensor_11_roll_mean_20": -0.7828191149501798,
+    "sensor_11_roll_std_20": -0.31970843629784385,
+    "sensor_12_roll_mean_20": 0.7590727924837768,
+    "sensor_12_roll_std_20": -0.2798408288121093,
+    "sensor_13_roll_mean_20": -0.6174009531699025,
+    "sensor_13_roll_std_20": -0.23014248586052793,
+    "sensor_14_roll_mean_20": -0.36505767110508053,
+    "sensor_14_roll_std_20": -0.4569188625550988,
+    "sensor_15_roll_mean_20": -0.792079186514685,
+    "sensor_15_roll_std_20": -0.16879178772576983,
+    "sensor_17_roll_mean_20": -0.7992281391443073,
+    "sensor_17_roll_std_20": -0.18639825023202805,
+    "sensor_20_roll_mean_20": 0.7909849408937318,
+    "sensor_20_roll_std_20": -0.15642070653368023,
+    "sensor_21_roll_mean_20": 0.7914994546227302,
+    "sensor_21_roll_std_20": -0.07679550347919066
+  },
+  "top_positive_correlated": [
+    {
+      "feature": "sensor_21_roll_mean_10",
+      "correlation": 0.8072229628645449
+    },
+    {
+      "feature": "sensor_20_roll_mean_10",
+      "correlation": 0.8063748333651036
+    },
+    {
+      "feature": "sensor_21_roll_mean_5",
+      "correlation": 0.8020168233635495
+    },
+    {
+      "feature": "sensor_20_roll_mean_5",
+      "correlation": 0.8006804395617986
+    },
+    {
+      "feature": "sensor_21_roll_mean_20",
+      "correlation": 0.7914994546227302
+    },
+    {
+      "feature": "sensor_20_roll_mean_20",
+      "correlation": 0.7909849408937318
+    },
+    {
+      "feature": "sensor_7_roll_mean_5",
+      "correlation": 0.7876215887723091
+    },
+    {
+      "feature": "sensor_12_roll_mean_5",
+      "correlation": 0.7865376282337131
+    },
+    {
+      "feature": "sensor_7_roll_mean_10",
+      "correlation": 0.7848829691618594
+    },
+    {
+      "feature": "sensor_12_roll_mean_10",
+      "correlation": 0.7814921693920992
+    }
+  ],
+  "top_negative_correlated": [
+    {
+      "feature": "sensor_4_roll_mean_5",
+      "correlation": -0.8116430821608754
+    },
+    {
+      "feature": "sensor_17_roll_mean_10",
+      "correlation": -0.8105609892609568
+    },
+    {
+      "feature": "sensor_11_roll_mean_5",
+      "correlation": -0.8102827694554565
+    },
+    {
+      "feature": "sensor_4_roll_mean_10",
+      "correlation": -0.809676815325304
+    },
+    {
+      "feature": "sensor_15_roll_mean_10",
+      "correlation": -0.809163933914083
+    },
+    {
+      "feature": "sensor_3_roll_mean_10",
+      "correlation": -0.8081001804819014
+    },
+    {
+      "feature": "sensor_15_roll_mean_5",
+      "correlation": -0.8056381454700563
+    },
+    {
+      "feature": "sensor_11_roll_mean_10",
+      "correlation": -0.804740592967986
+    },
+    {
+      "feature": "sensor_2_roll_mean_10",
+      "correlation": -0.8011964397714714
+    },
+    {
+      "feature": "sensor_3_roll_mean_20",
+      "correlation": -0.8004621355860506
+    }
+  ],
+  "low_variance_features": []
+}
