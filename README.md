@@ -11,7 +11,7 @@
 ## 1. Project Overview
 **Self-Healing Machines** is an industrial-grade, end-to-end Predictive Maintenance (PdM) intelligence platform designed for commercial aircraft turbofan fleets. Built upon the official **NASA C-MAPSS (Commercial Modular Aero-Propulsion System Simulation)** dataset, the system processes high-dimensional physical sensor streams to detect uncharacteristic operational anomalies, forecast Remaining Useful Life (RUL) with high precision, apply deterministic safety triage rules, and autonomously dispatch persistent maintenance work orders to an operational registry.
 
-PLATFORM LINK: [https://self-healing-machines-predictive-maintanance.streamlit.app/]
+_**PLATFORM LINK**_: [https://self-healing-machines-predictive-maintanance.streamlit.app/]
 
 The entire solution runs efficiently on standard hardware without requiring expensive cloud services or GPUs, providing a reliable, transparent, competition-ready codebase with zero black-box generative AI hallucinations in physical safety loops.
 
