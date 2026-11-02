@@ -19,6 +19,7 @@ mlflow*.out
 
 # SQLite databases (generated at runtime)
 database/*.db
+*.sqlite
 *.sqlite3
 
 # Temporary / OS files
